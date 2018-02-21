@@ -1,2 +1,2 @@
-baseurl: /submit
+baseurl: 
 exclude: ['README.md']
