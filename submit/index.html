@@ -2,24 +2,11 @@
 layout: default
 ---
 
-<h1>h1</h1>
-<p>p</p>
-<nav>
-  <button><a href="{{site.baseurl}}/submit/submitted.html">submit5</a></button>
-</nav>
-
-<form action="https://formspree.io/david9719717@yahoo.com"
-      method="POST">
-  <p>Name: </p> <input type="text" name="name">
-  <br/>
-  <p>Email: </p><input type="email" name="_replyto">
-  <br/>
-    <input type="submit" value="Send">
-</form>
-
-
 <div class="container">  
   <form id="contact" action="https://formspree.io/david9719717@yahoo.com" method="post">
+    
+    <input type="hidden" name="_subject" value="New Appointment Confirmation" />
+    
     <h3>Doctor Lau's office</h3>
     <h4>Confirm your appointment here</h4>
     <fieldset>
