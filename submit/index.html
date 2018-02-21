@@ -6,7 +6,13 @@ layout: default
 <head>
   <meta charset="utf-8">
   <title>Submit</title>
+  
   <style>
+  @import "{{ site.theme }}";
+
+  header {
+    display: none;
+  }
   /* cyrillic-ext */
   @font-face {
     font-family: 'Open Sans';
@@ -243,10 +249,6 @@ layout: default
   	-o-font-smoothing:antialiased;
   	font-smoothing:antialiased;
   	text-rendering:optimizeLegibility;
-  }
-
-  header {
-  	display: none;
   }
 
   body {
